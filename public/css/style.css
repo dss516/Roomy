@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+
 body{
     font-family: "Plus Jakarta Sans", sans-serif !important; 
     display: flex;
@@ -179,4 +181,24 @@ body{
 .search-inp{
     border-radius: 25px !important;
     padding: 0.5rem 3rem 0.5rem 3rem !important;
+}
+
+.roomy-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+.logo-icon {
+    width: 36px;
+    height: 36px;
+}
+
+.logo-text {
+    color: #FF385C;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
 }
