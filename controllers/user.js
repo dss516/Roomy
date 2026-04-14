@@ -27,7 +27,7 @@ module.exports.renderLogin = (req, res) => {
 };
 
 module.exports.login =  async (req, res) => {
-    req.flash("success","Welcome back to Wanderlust!");
+    req.flash("success","Welcome back to Roomy!");
     const redirectUrl = res.locals.redirectUrl || "/listings"; 
     // we have done this because isloggedin function willnot trigger while we are at home page.
     res.redirect(redirectUrl);
