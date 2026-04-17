@@ -16,3 +16,15 @@
     }, false)
   })
 })()
+
+function scrollFilters(distance) {
+  document.getElementById('filters').scrollBy({ left: distance, behavior: 'smooth' });
+}
+
+const filterElements = document.querySelectorAll('.filter');
+filterElements.forEach(filter => {
+  filter.addEventListener('click', () => {
+    document.querySelector('.filter.active')?.classList.remove('active');
+    filter.classList.add('active');
+  });
+});

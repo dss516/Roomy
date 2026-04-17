@@ -3,7 +3,7 @@ let coordinates1 = JSON.parse(coordinates);
     maptilersdk.config.apiKey = mapApiKey ;
     const map = new maptilersdk.Map({
       container: 'map', // container's id or the HTML element in which the SDK will render the map
-      style: "base-v4",
+      style: "streets-v2",
       center: coordinates1, // starting position [lng, lat]
       zoom: 13 //starting zoom
     });
